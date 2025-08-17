@@ -4888,8 +4888,8 @@ textarea {
 }
 .banner__author {
   position: absolute;
-  top: 30px;
-  left: 23px;
+  top: 10px;
+  left: -150px;
   width: 175px;
   padding: 11px 30px 11px 14px;
   border-radius: 6px;
