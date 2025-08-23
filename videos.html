@@ -27,11 +27,23 @@
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
 </head>
 
 <body>
 
-   <!--Preloader-->
+    <!--Preloader-->
     <div id="preloader">
         <div id="loader" class="loader">
             <div class="loader-container">
@@ -47,7 +59,7 @@
     </button>
     <!-- Scroll-top-end-->
 
-    <!-- header-area -->
+  <!-- header-area -->
     <header>
         <div class="tg-header__top">
             <div class="container custom-container">
@@ -96,12 +108,12 @@
                                         </li>
                                           <li ><a href="about-us.html">About Us</a>
                                         </li>
-                                          <li class="active" ><a href="services.html">Services</a>
+                                          <li ><a href="services.html">Services</a>
                                         </li>
                                         <li><a href="courses.html">Courses</a>
-                                              
+                                        
                                         </li>
-                                        <li><a href="videos.html">Videos</a></li>
+                                        <li class="active" ><a href="videos.html">Videos</a></li>
                                         <li ><a href="contact.html">Contact Us</a>
                                         </li>
                                     </ul>
@@ -160,13 +172,13 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
-                            <h3 class="title">Our Services</h3>
+                            <h3 class="title">Videos</h3>
                             <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a href="index.html">Home</a>
                                 </span>
                                 <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
-                                <span property="itemListElement" typeof="ListItem">Services</span>
+                                <span property="itemListElement" typeof="ListItem">Videos</span>
                             </nav>
                         </div>
                     </div>
@@ -185,185 +197,9 @@
         <!-- blog-area -->
         <section class="blog-area section-py-50">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-8">
-                        
-                        <div class="courses__details-content lesson__details-content">
-                            
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="overview-tab-pane" role="tabpanel" aria-labelledby="overview-tab" tabindex="0">
-                                    <div class="courses__overview-wrap">
-                                        <h3 class="title">Type of services offered by Shastra Technical Institute</h3>
-                                        <span class="event__date event__date-two">1) Technical Coaching for Various State & Central Government Exams</span>
-                                        
-                                        <p>Specialized coaching for Kerala PSC Technical Exams (Polytechnic Lecturer, Assistant Professor, etc.)
-Guidance for UPSC, SSC JE, ISRO, DRDO, and other central technical exams
-Comprehensive study materials including MCQ Books, Theory Books, Mock Tests, and Video Lectures
-Expert mentoring and structured online/offline batches</p>
-                                         <span class="event__date event__date-two">2) YouTube Channel with Completely Free Content</span>
-                                       
-                                        <p>One of Kerala’s top YouTube channels for Electronics and KTU Subjects
-Free video lectures, topic-wise discussions, and doubt-clearing sessions
-Covers core B.Tech subjects under KTU syllabus with clear conceptual explanations
-45,000+ subscribers and growing – trusted by students across Kerala and beyond</p>
-                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="instructors-tab-pane" role="tabpanel" aria-labelledby="instructors-tab" tabindex="0">
-                                    <div class="courses__instructors-wrap">
-                                        <div class="courses__instructors-thumb">
-                                            <img src="assets/img/courses/course_instructors.png" alt="img">
-                                        </div>
-                                        <div class="courses__instructors-content">
-                                            <h2 class="title">Mark Jukarberg</h2>
-                                            <span class="designation">UX Design Lead</span>
-                                            <p class="avg-rating"><i class="fas fa-star"></i>(4.8 Ratings)</p>
-                                            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
-                                            <div class="instructor__social">
-                                                <ul class="list-wrap justify-content-start">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="reviews-tab-pane" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
-                                    <div class="courses__rating-wrap">
-                                        <h2 class="title">Reviews</h2>
-                                        <div class="course-rate">
-                                            <div class="course-rate__summary">
-                                                <div class="course-rate__summary-value">4.8</div>
-                                                <div class="course-rate__summary-stars">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="course-rate__summary-text">
-                                                    12 Ratings
-                                                </div>
-                                            </div>
-                                            <div class="course-rate__details">
-                                                <div class="course-rate__details-row">
-                                                    <div class="course-rate__details-row-star">
-                                                        5
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="course-rate__details-row-value">
-                                                        <div class="rating-gray"></div>
-                                                        <div class="rating" style="width:80%;" title="80%"></div>
-                                                        <span class="rating-count">2</span>
-                                                    </div>
-                                                </div>
-                                                <div class="course-rate__details-row">
-                                                    <div class="course-rate__details-row-star">
-                                                        4
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="course-rate__details-row-value">
-                                                        <div class="rating-gray"></div>
-                                                        <div class="rating" style="width:50%;" title="50%"></div>
-                                                        <span class="rating-count">1</span>
-                                                    </div>
-                                                </div>
-                                                <div class="course-rate__details-row">
-                                                    <div class="course-rate__details-row-star">
-                                                        3
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="course-rate__details-row-value">
-                                                        <div class="rating-gray"></div>
-                                                        <div class="rating" style="width:0%;" title="0%"></div>
-                                                        <span class="rating-count">0</span>
-                                                    </div>
-                                                </div>
-                                                <div class="course-rate__details-row">
-                                                    <div class="course-rate__details-row-star">
-                                                        2
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="course-rate__details-row-value">
-                                                        <div class="rating-gray"></div>
-                                                        <div class="rating" style="width:0%;" title="0%"></div>
-                                                        <span class="rating-count">0</span>
-                                                    </div>
-                                                </div>
-                                                <div class="course-rate__details-row">
-                                                    <div class="course-rate__details-row-star">
-                                                        1
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="course-rate__details-row-value">
-                                                        <div class="rating-gray"></div>
-                                                        <div class="rating" style="width:0%;" title="0%"></div>
-                                                        <span class="rating-count">0</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="course-review-head">
-                                            <div class="review-author-thumb">
-                                                <img src="assets/img/courses/review-author.png" alt="img">
-                                            </div>
-                                            <div class="review-author-content">
-                                                <div class="author-name">
-                                                    <h5 class="name">Jura Hujaor <span>2 Days ago</span></h5>
-                                                    <div class="author-rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                </div>
-                                                <h4 class="title">The best LMS Design System</h4>
-                                                <p>Maximus ligula eleifend id nisl quis interdum. Sed malesuada tortor non turpis semper bibendum nisi porta, malesuada risus nonerviverra dolor. Vestibulum ante ipsum primis in faucibus.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4">
-                        <aside class="blog-sidebar blog-sidebar-two">
-                          
-                            <div class="blog-widget">
-                                <h4 class="widget-title">Categories</h4>
-                                <div class="shop-cat-list">
-                                    <ul class="list-wrap">
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>UPSC</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>SSC</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>JE</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>ISRO</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>DRDO</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>central technical exams</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="flaticon-angle-right"></i>Free video lectures</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                           
-                          
-                        </aside>
-                    </div>
-                </div>
+                
+             <h2>Latest Videos from Shastra Technical Institute</h2>
+<div class="video-grid" id="videoContainer"></div>
             </div>
         </section>
         <!-- blog-area-end -->
@@ -508,6 +344,61 @@ Covers core B.Tech subjects under KTU syllabus with clear conceptual explanation
     </footer>
     <!-- footer-area-end -->
 
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0 position-relative">
+        <!-- Close Button -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- Responsive Video Embed -->
+        <div class="ratio ratio-16x9">
+          <iframe id="videoIframe" src="" title="YouTube video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript to load video on open and stop on close -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var videoModal = document.getElementById('videoModal');
+    var iframe = document.getElementById('videoIframe');
+    var videoURL = "https://www.youtube.com/embed/7pDc0CjxsKY?autoplay=1";
+
+    videoModal.addEventListener('show.bs.modal', function () {
+        iframe.src = videoURL;
+    });
+
+    videoModal.addEventListener('hidden.bs.modal', function () {
+        iframe.src = "";
+    });
+});
+</script>
+
+<script>
+    const apiKey = 'AIzaSyAX84THy7k2PEjR7rrsTEAnoAHFju8qqSk'; // Replace with your API key
+    const channelId = 'UCv6k3m1EKil6DtJKPtN7I_w'; // Replace with your actual channel ID
+    const maxResults = 25;
+
+    fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`)
+        .then(response => response.json())
+        .then(data => {
+            const videoContainer = document.getElementById('videoContainer');
+            data.items.forEach(item => {
+                if (item.id.kind === "youtube#video") {
+                    const videoId = item.id.videoId;
+                    const iframe = document.createElement('iframe');
+                    iframe.src = `https://www.youtube.com/embed/${videoId}`;
+                    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                    iframe.allowFullscreen = true;
+                    videoContainer.appendChild(iframe);
+                }
+            });
+        })
+        .catch(error => console.error('Error loading videos:', error));
+</script>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
@@ -534,7 +425,4 @@ Covers core B.Tech subjects under KTU syllabus with clear conceptual explanation
         SVGInject(document.querySelectorAll("img.injectable"));
     </script>
 </body>
-
-
-
 </html>
